@@ -6,5 +6,8 @@ $(function () {
     $(newTask).append('<button id="remove" class="todo-button remove">Remove</button>');
     $('#myList').append(newTask);
     $('input').val('');
-  })
+    $('#remove').on('click', function() {
+      $(this).parent().remove();
+    });
+  });
 })
