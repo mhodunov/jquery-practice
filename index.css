@@ -1,0 +1,64 @@
+.title {
+  font-size: 36px;
+  color: coral;
+  margin: 0;
+  padding: 0;
+}
+
+.subline {
+  font-size: 15px;
+  text-transform: uppercase;
+  color: #2c2c2c;
+  margin-top: 15px;
+  margin-bottom: 0px;
+  padding: 0;
+}
+
+.todo-field {
+  margin-top: 50px;
+  color: coral;
+  font-size: 20px;
+  padding: 15px 20px;
+}
+
+.todo-button {
+  font-size: 20px;
+  text-transform: uppercase;
+  color: white;
+  background-color: coral;
+  transition: all linear 300ms;
+  border: 1px solid coral;
+  padding: 15px 20px;
+  cursor: pointer;
+}
+
+.todo-button:hover,
+.todo-button:focus {
+  background-color: #fff;
+  color: coral;
+  border: 1px solid coral;
+}
+
+.todo-button.remove {
+  background-color: red;
+  margin-left: 30px;
+}
+
+.todo-button.remove:hover,
+.todo-button.remove:focus {
+  background-color: #fff;
+  color: red;
+  border: 1px solid red;
+}
+
+.todo-list {
+  margin-top: 50px;
+  padding-left: 20px;
+}
+
+.todo-task {
+  font-size: 20px;
+  margin-left: 0;
+  padding: 0;
+  margin-top: 15px;
+}
